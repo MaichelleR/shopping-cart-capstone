@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Believer Boutiques - Checkout</title>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Shopping Cart</h1>
+        <button onclick="location.href =  'index.html'"><font color="#d7a6d7"> Home</font></button>
+        <button onclick="location.href =  'cart.html'" ><font color="#d7a6d7"> Shopping Cart</font></button>
+      </header>
+      <table border="3" cellpadding="10" cellspacing="0">
+        <caption>
+          Flower Cart
+        </caption>
+        <thead>
+          <colgroup>
+            <col width="60%" />
+            <col width="20%" />
+            <col width="20%" span="1" style="background-color:#d7c4d7;" />
+          </colgroup>
+          <tr>
+            <th align="left" class="col-item-name">Item Name</th>
+            <th align="center" class="col-quantity">Quantity</th>
+            <th align="center" class="col-price">Price</th>
+          </tr>
+        </thead>
+        <tbody id="shopping-cart">
+        </tbody>
+        <tfoot>
+          <td class="price_txt" scope="col" colspan="2">Total Price</td>
+          <td id="total" align="center">0</td>
+        </tfoot>
+      </table>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

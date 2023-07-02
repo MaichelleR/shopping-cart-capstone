@@ -1,0 +1,55 @@
+.header {
+    padding: 15px;
+    text-align: center;
+    background: #d7c4d7;
+    color: white;
+    font-size: 30px;
+  
+  }
+
+
+  
+  caption {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  table {
+    table-layout: auto;
+    border-spacing: 0; /*  Same as cellspacing="0" */
+    border-collapse: collapse;
+    width: 450px;
+    margin: 40px auto;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid black;
+    vertical-align: top;
+  }
+  
+ 
+  .col-item-name {
+    width: 60%;
+  }
+  
+
+  .col-quantity,
+  .col-price {
+    width: 20%;
+  }
+  
+  table th {
+    background-color: #d7c4d7;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  table tbody tr:nth-child(even) td {
+    background-color: #dcdcdc;
+  }
+  
+  .price_txt {
+    text-align: right;
+    font-weight: bold;
+  }
